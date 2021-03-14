@@ -1,2 +1,2 @@
 FROM node:14
-WORKDIR /usr/src/app/memo-app
+WORKDIR /usr/src/app

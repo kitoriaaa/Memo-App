@@ -8,8 +8,6 @@ services:
     ports: 
       - 3000:3000
     volumes:
-      - .:/usr/src/app
+      - ./memo-app:/usr/src/app
     stdin_open: true
     tty: true
-
-

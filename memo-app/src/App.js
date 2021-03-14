@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
 import Memo from './memo/Memo';
 import AddForm from './memo/AddForm';
 import FindForm from './memo/FindForm';
@@ -11,10 +9,6 @@ import DelForm from './memo/DelForm';
 class App extends Component {
   td = {
     width: "250px",
-  }
-
-  constructor(props) {
-    super(props);
   }
 
   render() {
