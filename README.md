@@ -2,14 +2,17 @@
 React + Redux<br>
 Docker上で開発
 
+## Docker起動コマンド
 ```
 docker-compose up -d
 docker-compose exec app /bin/bash
-
+// 停止
 docker-compose down
 ```
 
+`npx create-react-app memo-app`
 
+## Start React app
 > Success! Created memo-app at /usr/src/app/memo-app
 > Inside that directory, you can run several commands:
 > 
@@ -30,3 +33,12 @@ docker-compose down
 > 
 >   `cd memo-app`<br>
 >   `yarn start`
+
+
+## Redux install
+```
+npm install --save redux
+
+npm install --save react-redux
+
+npm install --save-dev redux-devtools
