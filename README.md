@@ -30,3 +30,19 @@ docker-compose down
 > 
 >   `cd memo-app`<br>
 >   `yarn start`
+
+### ESLint 導入
+```bash
+// ESLint insatll
+npm install --save-dev eslint
+node_modules/.bin/eslint --init
+```
+
+package.jsonに追加
+```json
+  "scripts": {
+    ...
+    "lint": "eslint src"
+  },
+```
+
