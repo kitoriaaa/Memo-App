@@ -42,7 +42,7 @@ function addReduce(state, action) {
     message: 'Added',
     mode: 'default',
     fdata: []
-  }
+  };
 }
 
 
@@ -55,7 +55,7 @@ function deleteReduce(state, action) {
     message: 'Delete "' + action.index + '":',
     mode: 'delete',
     fdata: []
-  }
+  };
 }
 
 
@@ -73,7 +73,7 @@ function findReduce(state, action) {
     message: 'Find "' + f + '":',
     mode: 'find',
     fdata: fdata,
-  }
+  };
 }
 
 
@@ -82,7 +82,7 @@ export function addMemo(text) {
   return {
     type: 'ADD',
     message: text,
-  }
+  };
 }
 
 
@@ -90,7 +90,7 @@ export function deleteMemo(num) {
   return {
     type: 'DELETE',
     index: num,
-  }
+  };
 }
 
 
@@ -98,7 +98,7 @@ export function findMemo(text) {
   return {
     type: 'FIND',
     find: text,
-  }
+  };
 }
 
 
