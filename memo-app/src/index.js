@@ -2,15 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import { Provider } from "react-redux";
-import MemoStore from './memo/Store';
-import App from './component/App'
+import App from './component/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={MemoStore}>
-      <App />
-    </Provider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

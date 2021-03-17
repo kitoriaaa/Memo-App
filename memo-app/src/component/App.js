@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from 'react';
 import MemoPage from './memo/MemoPage';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <MemoPage />
       </div>
     </div>
-  )
+  );
 }
 
 export default App;
