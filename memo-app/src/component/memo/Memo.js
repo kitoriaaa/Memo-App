@@ -18,13 +18,13 @@ function Memo() {
 
     case 'find':
       data = fmemo.map((value, key) => (
-        <Item key={value.message} value={value} index={key + 1} />
+        <Item key={key} value={value} index={key + 1} />
       ));
       break;
 
     default:
       data = memo.map((value, key) => (
-        <Item key={value.message} value={value} index={key + 1} />
+        <Item key={key} value={value} index={key + 1} />
       ));
       break;
   }
